@@ -19,4 +19,4 @@ server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
 });
 
-// "/carClasses/:carClassId": "/carClass?carClassId=:carClassId",
+module.exports = server;
