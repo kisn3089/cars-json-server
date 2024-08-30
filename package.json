@@ -1,0 +1,20 @@
+{
+  "name": "cars-json-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "author": "Stems",
+  "keywords": [
+    "json-server",
+    "API",
+    "fake"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "server": "json-server db.json --routes routes.json --port 8080"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "json-server": "^0.17.3"
+  }
+}
