@@ -9,10 +9,10 @@
       }
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "api/server.js"
+      "src": "/(.*)",
+      "dest": "server.js"
     }
   ]
 }
